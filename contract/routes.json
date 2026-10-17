@@ -1,0 +1,196 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/v1/consumo",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "ConsumptionController#getHighConsumption",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/consumo-alto",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "ConsumptionController#getHighConsumption",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/consumo-alto-paginado",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "ConsumptionController#getHighConsumptionPaged",
+    "pathVariables": [],
+    "queryParams": [
+      {
+        "name": "page",
+        "type": "int",
+        "required": false,
+        "default": "0"
+      },
+      {
+        "name": "size",
+        "type": "int",
+        "required": false,
+        "default": "20"
+      }
+    ],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/contracts/last-connections",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "LastConnectionController#getLastConnections",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/contracts/ultimas-conexoes",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "LastConnectionController#getLastConnections",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/contratos/last-connections",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "LastConnectionController#getLastConnections",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/contratos/ultimas-conexoes",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "LastConnectionController#getLastConnections",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/high-consumption",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "ConsumptionController#getHighConsumption",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/high-consumption-paged",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "ConsumptionController#getHighConsumptionPaged",
+    "pathVariables": [],
+    "queryParams": [
+      {
+        "name": "page",
+        "type": "int",
+        "required": false,
+        "default": "0"
+      },
+      {
+        "name": "size",
+        "type": "int",
+        "required": false,
+        "default": "20"
+      }
+    ],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/radius/duplicate-calling-stations",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "DuplicateCallingStationController#getDuplicateCallingStations",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/radius/duplicate-prefixes",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "DuplicatePrefixController#getDuplicatePrefixes",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/radius/first-authentications",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "FirstAuthenticationController#getFirstAuthentications",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ultima-conexao/last-connections",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "LastConnectionController#getLastConnections",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ultima-conexao/ultimas-conexoes",
+    "service": "radius",
+    "auth": "authenticated",
+    "safe": true,
+    "handler": "LastConnectionController#getLastConnections",
+    "pathVariables": [],
+    "queryParams": [],
+    "headers": [],
+    "body": null
+  }
+]
